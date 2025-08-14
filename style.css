@@ -1,0 +1,36 @@
+body {
+ background: linear-gradient(to right);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+h1 {
+    letter-spacing: 10px;
+}
+
+.pokeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 120px;
+}
+
+.pokemon {
+    background-color: rgb(233, 204, 167);
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgContainer {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
